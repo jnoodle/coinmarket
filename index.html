@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coin Market</title>
+    <style>
+      .coinPriceBlock-container {
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden !important;
+      }
+      .coinPriceBlock {
+        margin-bottom: 16px;
+      }
+      .coinPriceBlock__title {
+        color: #58667e !important;
+        font-weight: normal !important;
+      }
+      .coinPriceBlock__price {
+        font-size: 18px !important;
+        color: #333 !important;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div
+      id="coinmarketcap-widget-coin-price-block"
+      coins="1,1027,7334,2151,5712,1839,1027,7334,2151,5712,1839,1027,7334,2151,5712,1839,1027,7334,2151,5712,1839,1027,7334,2151,5712,1839"
+      currency="USD"
+      theme="light"
+      transparent="false"
+      show-symbol-logo="true"
+    ></div>
+
+    <script
+      type="text/javascript"
+      src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"
+    ></script>
+  </body>
+</html>
